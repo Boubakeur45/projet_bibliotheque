@@ -14,11 +14,10 @@ public class Livre {
 	
 	
 	@Override
+		
 	public String toString() {
-		return "Livre [id=" + id + ", auteur=" + auteur + ", titre=" + titre + ", nb_pages=" + nb_pages + ", categorie="
-				+ categorie + "]";
+		return "Livre  [ id : " + id + ", auteur : " + auteur + ", titre : " + titre +" ]";
 	}
-	
 	public Livre(Auteur auteur, String titre, int nb_pages, String categorie) {
 		
 		this.auteur = auteur;

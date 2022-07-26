@@ -13,10 +13,11 @@ public class Auteur {
 	
 	
 	@Override
+	
 	public String toString() {
-		return "Auteur [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", telephone=" + telephone + ", email="
-				+ email + "]";
+		return "Auteur [id : " + id + ", nom : " + nom + ", prenom : " + prenom + "]";
 	}
+	
 	public Auteur(String nom, String prenom, String telephone, String email) {
 		super();
 		this.nom = nom;

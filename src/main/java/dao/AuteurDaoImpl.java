@@ -204,9 +204,7 @@ public class AuteurDaoImpl implements AuteurDao {
 					
 					System.out.println("Suppression réussi");
 				
-				} else {
-					System.out.println("Problème suppression");
-				}
+				} 
 				pst.close();
 
 

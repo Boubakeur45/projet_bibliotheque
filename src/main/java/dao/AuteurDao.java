@@ -6,7 +6,7 @@ import model.Auteur;
 
 public interface AuteurDao {
 	
-	List<Auteur> list() throws DaoException;
+	List<Auteur> list() throws DaoException ;
 	   
 	List<Auteur> rechercheParNom(String nom) throws DaoException;
 	
