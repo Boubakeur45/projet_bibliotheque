@@ -18,4 +18,7 @@ public class Auteur {
     return this.id;
   }
   
+  public String toString() {
+  }
+  
 }
