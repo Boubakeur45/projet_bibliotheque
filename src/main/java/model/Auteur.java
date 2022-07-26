@@ -14,4 +14,8 @@ public class Auteur {
       this.email = email;
   }
   
+  public int getId() {
+    return this.id;
+  }
+  
 }
