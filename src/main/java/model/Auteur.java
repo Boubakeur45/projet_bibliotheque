@@ -15,10 +15,11 @@ public class Auteur {
   }
   
   public int getId() {
-    return this.id;
+      return this.id;
   }
   
   public String toString() {
+      return "Auteur : id=" + getId() + " nom=" + getNom() + " prenom=" + getPrenom() + " telephone=" + getTelephone() + " email=" + getEmail();
   }
   
 }
